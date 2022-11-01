@@ -16,7 +16,7 @@ public class ScooterQuestions {
         mainPage.open(); // открываем ссылку
         mainPage.clickCookie(); // закрываем куки
         mainPage.scrollHowMuch(); // скролл
-        mainPage.clickHowMuch(); // клик 1й вопрос
+        mainPage.clickHowMuch(); // клик 1й вопрос. иногда тест падает на этом месте, не пойму почему
         mainPage.IsAnswerHowMuch();
         mainPage.clickWantSeveralScooters();
         mainPage.IsAnswerSeveralScooters();
